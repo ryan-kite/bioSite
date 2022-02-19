@@ -88,37 +88,37 @@ TYPEOG
 }
 
 h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    padding-bottom: 2%;
-}
-
-h2 {
-    font-size: 3.25rem;
-    font-weight: 700;
-    padding-bottom: 2%;
-}
-
-h3 {
     font-size: 3.0rem;
     font-weight: 700;
     padding-bottom: 2%;
 }
 
-h4 {
+h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+h3 {
     font-size: 2.5rem;
     font-weight: 700;
     padding-bottom: 2%;
 }
 
-h5 {
+h4 {
     font-size: 2.0rem;
     font-weight: 700;
     padding-bottom: 2%;
 }
 
+h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
 h6 {
-    font-size: 0.875rem;
+    font-size: 1.0rem;
     font-weight: 700;
     padding-bottom: 1%;
 }
@@ -233,6 +233,8 @@ LAYOUT
     padding: 0px;
     min-height: 100px;
     background-color: #D7F205;
+    transition: margin .3s;
+    transition-timing-function: ease-out;
 }
 
 #masthead .btn {
@@ -275,6 +277,8 @@ ul.navigation li:last-child {
     height: auto;
     position: relative;
     max-width: 100%;
+    transition: margin .3s;
+    transition-timing-function: ease-out;
 }
 
 #footer {
@@ -328,6 +332,8 @@ SIDEBAR
     float: left;
     border-right: solid 2px #020126;
     font-weight: 500;
+    transition: margin .3s;
+    transition-timing-function: ease-out;
 }
 
 /*
