@@ -2,14 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,500&display=swap');
 
 /*
+COLORS
 San Juan #BFBFBF
 Faded Jade #020126
 Wild Sand #D7F205
 Alto #C0D904
 Mine Shaft #93A603
 */
-
-
+.san-jaun {
+    background-color: #BFBFBF;
+}
+.faded-jade {
+    background-color: #020126;
+}
+.wild-sand {
+    background-color: #D7F205;
+}
+.alto {
+    background-color: #C0D904;
+}
+.alto {
+    background-color: #C0D904;
+}
+.mine-shaft{
+    background-color: #93A603;
+}
 /*
 GLOBAL
 */
@@ -55,17 +72,19 @@ TYPEOG
 .price {
     padding: 5px;
     background-color: #C0D904;
+    line-height: 2;
 }
 
-.heading {
-    font-weight: 700;
-    padding-bottom: 1.4em;
+.callout {
+    font-size: 1.45em;
+    text-align: center;
+    font-style: italic;
+    padding: 3%;
 }
 
-.subheading {
-    font-weight: 700;
-    padding-bottom: 1.35em;
-    margin-top: 5px;
+.underline {
+    text-decoration: underline solid #93A603;;
+    text-underline-position: under;
 }
 
 h1 {
@@ -163,6 +182,16 @@ HELPERS
     margin-top: 50px;
 }
 
+.m-r-sm {
+    margin-right: 10px;
+}
+.m-r-md {
+    margin-right: 20px;
+}
+.m-r-lg {
+    margin-right: 30px;
+}
+
 .left {
     text-align: left;
 }
@@ -180,6 +209,17 @@ HELPERS
 /*
 LAYOUT
 */
+
+.parent {
+    display: flex;
+    height: 300px; /* Or whatever */
+  }
+  
+  .child {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+  }
 
 .content-body {
     padding-bottom: 50px;
@@ -232,8 +272,9 @@ ul.navigation li:last-child {
 #main {
     margin-left: 225px;
     padding: 50px 25px;
-    height: 1100px;
+    height: auto;
     position: relative;
+    max-width: 100%;
 }
 
 #footer {
@@ -292,6 +333,11 @@ SIDEBAR
 /*
 NAV
 */
+.nav-button {
+    padding: 5px;
+    cursor: pointer;
+}
+
 ul.navigation li a {
     display: inline-block;
     width: -webkit-fill-available;
@@ -304,3 +350,13 @@ ul.navigation li a {
     text-align: center;
     font-weight: 700;
 }
+
+/*
+MEDIASCREEN
+*/
+@media screen and (max-width: 600px) {
+
+    #main {
+      color: red;
+      }
+  }
