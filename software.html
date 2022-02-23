@@ -45,7 +45,10 @@
         </div>
 
         <div id="masthead">
-            <a class="btn" href="software.html">GET STARTED</a>
+            <div class="row">
+                <div class="col-8"><input id="userEmail" class="form-input" type="text" placeholder="Enter your email" value=""> </div>
+                <div class="col-4"><a class="btn" onclick="signUp()" href="#">GET STARTED</a></div>
+            </div>
         </div>
 
         <div id="main">
@@ -55,60 +58,85 @@
             <div class="content-body">
 
                 <!-- section 1-->
-                <div class="row m-t-xl">
-                    <div class="col-7">
-                        <h3>How do get mine?</h3>
-            
-                        <ul>  
-                            <li><a href="#" class="price">Sign-up here </a></li> 
-                            <li>Get access to your personal deployment executable & secret access code</li> 
-                        </ul>                     
-                    </div>
-                    <div class="col-5 center">
-                        <div class="parent">
-                            <img class="child" src="images/robots/7.png"> 
-                        </div>
-                    </div>
-                </div> 
+                <div class="wrapper san-juan dark">
+                    <div class="row m-t-xl">
+                        <div class="col-6">
+                            <h3>How do get mine?</h3>
+                
+                            <p class="lead m-t-lg">  Get access to your personal deployment executable & secret access code</p>
 
-                <!-- section 2-->
-                <div class="row m-t-xl">
-                    <div class="col-7">
-                        <h3>How much does it cost?</h3>
-            
-                        <p> Currently, you can have CODE DRONE<sup>&reg;</sup> on your dev team like any other subscription service:</p>
+                            <div class="parent">
+                                <img class="child iconize" src="images/robots/7.png"> 
+                            </div>   
+                           
+                                             
+                        </div>
+                        <div class="col-6 center">
+                            <!-- FORM -->
+                            <div class="form-wrapper">
+                                <form onsubmit="alert('Your In! Check your inbox at for further instructions'); return false;">
+                                    <h4>Sign-Up Now</h4>
+                                
+                                    <label>Full name</label>
+                                    <input type="text" class="form-input">
+        
+                                    <label>Email</label>
+                                    <input type="text" class="form-input">
+
+                                    <label>Phone</label>
+                                    <input type="text" class="form-input">
+        
+                                    <button class="form-submit" id="signUpSubmit">Submit</button>
+    
+                                </form>
+                            </div>
                             
-                            <ul class="font-heavy">
-                                <li><span class="price">month-to-month for $199 per/month </span> or</li>
-                                <li><span class="price">annually for $99 per/month </span> </li>
-                            </ul>
-                    
-                            <p>
-                                <em>NOTE: We estimate the ROI CODE DRONE adds covers its entire annual licensing costs within less than 2 months.</em> 
-                            </p>                  
-                    </div>
-                    <div class="col-5 center">
-                        <div class="parent"> 
-                            <img class="child" src="images/robots/8.png">
                         </div>
                     </div>
-                </div> 
+                </div>
+                 
+                <!-- section 2-->
+                <div class="wrapper faded-jade light">
+                    <div class="row m-t-xl">
+                        <div class="col-7">
+                            <h3>How much does it cost?</h3>
+                
+                            <p> Currently, you can have CODE DRONE<sup>&reg;</sup> on your dev team like any other subscription service:</p>
+                                
+                                <ul class="font-heavy">
+                                    <li><span class="price">month-to-month for $199 per/month </span> or</li>
+                                    <li><span class="price">annually for $99 per/month </span> </li>
+                                </ul>
+                        
+                                <p>
+                                    <em>NOTE: We estimate the ROI CODE DRONE adds covers its entire annual licensing costs within less than 2 months.</em> 
+                                </p>                  
+                        </div>
+                        <div class="col-5 center">
+                            <div class="parent"> 
+                                <img class="child iconize" src="images/robots/8.png">
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                
 
                 <!-- section 3 -->
-                <div class="row m-t-xl">
-                    <div class="col-7">
-                        <h3>Do you have support?</h3>
-            
-                        <p> Yes, we have a live support team you can reach by phone or email. A Knowledgebase with tonnes of great information and videos And, CODE DRONE has builtin help to solve most things you might run into.
-                        </p>                  
-                    </div>
-                    <div class="col-5 center">
-                        <div class="parent"> 
-                            <img class="child" src="images/robots/9.png">
+                <div class="wrapper san-juan dark">
+                    <div class="row m-t-xl">
+                        <div class="col-7">
+                            <h3>Do you have support?</h3>
+                
+                            <p> Yes, we have a live support team you can reach by phone or email. A Knowledgebase with tonnes of great information and videos And, CODE DRONE has builtin help to solve most things you might run into.
+                            </p>                  
                         </div>
-                    </div>
-                </div>  
-            
+                        <div class="col-5 center">
+                            <div class="parent"> 
+                                <img class="child iconize" src="images/robots/9.png">
+                            </div>
+                        </div>
+                    </div> 
+                </div>
             </div>
         </div>
     </body>
