@@ -6,7 +6,6 @@
         <meta name="description" content="CODE DRONE - Code faster using AI">
         <meta name="author" content="Ryan Kite">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="js/cd.js"></script>
         <link rel="stylesheet" href="css/cd-site.css">
         <link rel="stylesheet" href="css/simple-grid.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -18,12 +17,20 @@
             <div class="logo">
                 <a href="index.html"><img src="images/code-drone-logo.png" alt="CODE DRONE logo" ></a>
             </div>
-            <nav>
+            <nav id="main-menu">
                 <ul class="navigation">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="software.html">Software</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="mobile-menu">
+                <ul class="navigation">
+                    <li><a href="index.html"><i class="fa fa-home fa-fw"></i></a></li>
+                    <li><a href="about.html"><i class="fa fa-lightbulb-o fa-fw"></i></a></li>
+                    <li><a href="software.html"><i class="fa fa-desktop fa-fw"></i></a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope fa-fw"></i></a></li>
                 </ul>
             </nav>
             <div id="footer">
@@ -141,5 +148,7 @@
                 </div>
             </div>
         </div>
+    <!-- LOAD AFTER CONTENT -->
+    <script type="text/javascript" src="js/cd.js"></script>      
     </body>
 </html>

@@ -315,7 +315,17 @@ ul.navigation li {
 }
 
 
-ul.navigation li a:hover {
+#mobile-menu ul.navigation li a:hover {
+    display: inline-block;
+    width: -webkit-fill-available;
+    background-color: #020126;
+    color: white;
+    padding: 20px;
+    border-top: 1px solid #020126;
+    margin: 0px;
+}
+
+#main-menu ul.navigation li a:hover {
     display: inline-block;
     width: -webkit-fill-available;
     background-color: #020126;
@@ -413,7 +423,7 @@ NAV
     font-size: 1.4em;
 }
 
-ul.navigation li a {
+#main-menu ul.navigation li a {
     display: inline-block;
     width: -webkit-fill-available;
     background-color: transparent;
@@ -425,6 +435,22 @@ ul.navigation li a {
     text-align: center;
     font-weight: 700;
 }
+
+#mobile-menu ul.navigation li a {
+    display: inline-block;
+    width: -webkit-fill-available;
+    background-color: transparent;
+    padding: 20px;
+    left: 8px;
+    border-top: 1px solid #020126;
+    margin: 0px;
+    text-decoration: none;
+    color: #020126;
+    text-align: right;
+    font-weight: 700;
+    position: relative;
+}
+
 
 /*FORM*/
 .form-wrapper {
@@ -469,5 +495,5 @@ MEDIASCREEN
 @media screen and (max-width: 600px) {
 
    /**/
-   
+
   }
